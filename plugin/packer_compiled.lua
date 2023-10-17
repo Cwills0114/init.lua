@@ -90,6 +90,11 @@ _G.packer_plugins = {
     path = "/Users/charliewills/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["feline.nvim"] = {
+    loaded = true,
+    path = "/Users/charliewills/.local/share/nvim/site/pack/packer/start/feline.nvim",
+    url = "https://github.com/feline-nvim/feline.nvim"
+  },
   ["gitsigns.nvim"] = {
     loaded = true,
     path = "/Users/charliewills/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
