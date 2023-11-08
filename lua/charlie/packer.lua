@@ -36,5 +36,13 @@ return require('packer').startup(function(use)
 }
 use('lewis6991/gitsigns.nvim')
 use('feline-nvim/feline.nvim')
+use('prettier/vim-prettier', {
+    run='yarn install --frozen-lockfile --production',
+    branch='release/0.x',
+    ft = {'javascript', 'typescript', 'css', 'less', 'scss', 'graphql', 'markdown', 'vue', 'html'}
+
+})
+-- use('MunifTanjim/nui.nvim')
+-- use('google/executor.nvim')
 
 end)
